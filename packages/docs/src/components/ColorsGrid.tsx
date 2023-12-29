@@ -1,6 +1,5 @@
-import { colors } from '@ignite-ui/tokens'
+import { colors } from '@fusion-design-system/tokens'
 import { getContrast } from 'polished'
-
 
 export function ColorsGrid() {
   return Object.entries(colors).map(([key, color]) => {

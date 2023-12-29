@@ -1,5 +1,5 @@
 import {StoryObj, Meta} from '@storybook/react'
-import {Box, TextInput, Text, TextInputProps} from '@ignite-ui/react'
+import {Box, TextInput, Text, TextInputProps} from '@fusion-design-system/react'
 
 export default {
   title: 'Form/Text Input',
@@ -27,7 +27,8 @@ export const Primary: StoryObj<TextInputProps> = {
 
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
-    prefix: 'call.com/'
+    prefix: 'call.com/',
+    placeholder: 'your-username'
   }
 }
 

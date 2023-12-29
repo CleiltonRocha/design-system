@@ -1,5 +1,5 @@
 import {StoryObj, Meta} from '@storybook/react'
-import {Avatar, AvatarProps} from '@ignite-ui/react'
+import {Avatar, AvatarProps} from '@fusion-design-system/react'
 
 export default {
   title: 'Data Display/Avatar',

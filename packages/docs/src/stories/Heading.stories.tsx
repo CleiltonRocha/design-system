@@ -1,5 +1,5 @@
 import {StoryObj, Meta} from '@storybook/react'
-import { Heading, HeadingProps } from '@ignite-ui/react'
+import { Heading, HeadingProps } from '@fusion-design-system/react'
 
 
 export default {
